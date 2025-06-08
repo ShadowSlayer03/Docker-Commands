@@ -60,6 +60,8 @@ A background process also called `dockerd`.
 
 12. `docker exec <container-name> <command>` - Execute a command inside a running container.
 
+13. `docker build -t <username>/<container-name>:<tag>` - Build an image from the Dockerfile.
+
 13. `docker start <container-id>` - Start an exited container.
 
 14. `docker stop <container-id>` - Stop a running container.
