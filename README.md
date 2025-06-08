@@ -37,15 +37,31 @@ A background process also called `dockerd`.
 ## Image and Container Management
 ---
 1.  `docker search <image-name>` - Search for a Docker image in Docker Hub.
+
 2.  `docker pull <image-name>` - Get the image locally.
+
 3.  `docker images` - View all local images.
+
 4.  `docker create <image-name>` - Create a new container from an image.
+
 5.  `docker ps` - List running containers.
+
 6.  `docker ps -a` - List all containers, including exited ones.
+
 7.  `docker run <image-name>` - Create and run a new container from an image.
+
 8.  `docker run -it <container-name>` - Run a container in interactive mode.
-9.  `docker start <container-id>` - Start an exited container.
-10. `docker stop <container-id>` - Stop a running container.
-11. `docker pause <container-id>` - Pause a running container.
-12. `docker rm <container-id>` - Remove a container.
-13. `docker rmi <image-name>` - Remove an image.
+
+9. `docker cp <file-location> <container-name>:<container-path>` - Copy a file from local file location to some container path in some container
+
+10. `docker exec <container-name> <command>` - Execute a command inside the container
+
+11.  `docker start <container-id>` - Start an exited container.
+
+12. `docker stop <container-id>` - Stop a running container.
+
+13. `docker pause <container-id>` - Pause a running container.
+
+14. `docker rm <container-id>` - Remove a container.
+
+15. `docker rmi <image-name>` - Remove an image.
